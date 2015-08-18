@@ -1,0 +1,32 @@
+From proski at gnu.org  Sun Sep 30 10:25:01 2007
+From: proski at gnu.org (Pavel Roskin)
+Date: Sun, 30 Sep 2007 04:25:01 -0400
+Subject: [at76c503a-announce] [ANNOUNCE] at76_usb 0.17 released
+Message-ID: <1191140701.17780.9.camel@dv>
+
+Hello!
+
+Version 0.17 of the at76_usb driver has been released.
+
+This is a stability release that includes only a handful of fixes.
+
+- The default network device names will now start with "wlan", as in
+  versions prior to 0.16.
+
+- Fixed support for Belkin F5D6050.
+
+- Added support for Corega Wireless LAN USB-11 mini and mini2.
+
+- Improved messages in the kernel log.
+
+- Packets captured in monitor mode use correct value for the protocol.
+
+The driver is compatible with Linux 2.6.20 and newer, including the
+forthcoming version 2.6.23.
+
+-- 
+Regards,
+Pavel Roskin
+
+
+
